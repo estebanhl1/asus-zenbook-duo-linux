@@ -11,7 +11,7 @@ Es una automatización de usuario mediante la API de pantallas de Mutter; no mod
 - Dos pantallas internas de 2880 × 1800 a 120 Hz y dos monitores externos.
 - Escala fraccional en las pantallas internas.
 
-Se verificó el apagado y la restauración conservando la distribución de pantallas y se recibió confirmación del usuario tras la instalación. Otros modelos, distribuciones y configuraciones todavía no se han probado.
+Se verificó el apagado y la restauración conservando la distribución de pantallas. Otros modelos, distribuciones y configuraciones todavía no se han probado.
 
 ## Qué hace
 
