@@ -1,0 +1,13 @@
+[Unit]
+Description=ASUS Zenbook Duo lower display keyboard watcher
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 "%h/.local/share/zenbook-duo-screen-toggle/duo-display-watch.py"
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=graphical-session.target

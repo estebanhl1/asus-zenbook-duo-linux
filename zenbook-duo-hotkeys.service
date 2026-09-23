@@ -1,0 +1,16 @@
+[Unit]
+Description=ASUS Zenbook Duo USB special keys
+After=systemd-udevd.service
+
+[Service]
+ExecStart=/usr/bin/python3 /usr/local/lib/zenbook-duo-hotkeys/duo-hotkeys.py
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=5
+NoNewPrivileges=true
+ProtectHome=true
+ProtectSystem=strict
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
